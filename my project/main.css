@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+.button1{
+    height: 5vh;
+    width: 5vh;
+    background-color: antiquewhite;
+    margin: 5vh;
+    border: 0.1vh solid black;
+    border-radius: 1vh;
+}
+.button2{
+    flex-grow: 1;
+    height: 70vh;
+    margin: 60vh;
+    margin-top: 5vh;
+    background-color: antiquewhite;
+    border: 0.1vh solid black;
+    border-radius: 1vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.block1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+.block2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1vh solid black;
+    padding: 1vh;
+    border-radius: 1vh;
+    font-size: 3vh;
+}
+input{
+    height: 3vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+        border: 0.1vh solid black;
+    border-radius: 1vh;
+}
+button{
+    height: 3vh;
+    width: 4vw;
+    background-color: #fff;
+    border: 0.1vh solid black;
+    border-radius: 1vh;
+}
+.finaly-div{
+    flex-grow: 1;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finaly-button{
+    flex-grow: 1;
+    height: 15vh;
+    font-size: 5vh;
+}
